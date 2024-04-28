@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 #navBtn {
@@ -33,7 +33,7 @@ i.fa-close {
 }
 
 .mainPage {
-  padding: 50px 150px;
+  padding: 7vh 10vw;
   background-color: whitesmoke;
   transform-origin: 0 0;
   transition: 0.5s;
@@ -44,6 +44,10 @@ h1 {
 }
 h6 {
   margin-top: 0;
+}
+
+img {
+  width: 80vw;
 }
 
 .img {
