@@ -2,7 +2,7 @@ body {
   background-color: rgb(66, 66, 66);
   margin: 0;
   overflow-x: hidden;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: Arial, Helvetica, sans-serif;
   /* font-size: 20px; */
 }
@@ -60,7 +60,7 @@ img {
 
 .menu {
   position: fixed;
-  bottom: 0;
+  top: 65vh;
   left: -250px;
   color: white;
 }
@@ -69,7 +69,7 @@ img {
 #aboutBtn,
 #contactBtn {
   transition: 0.5s;
-  margin: 50px;
+  margin: calc(min(5vh, 5vw));
   cursor: pointer;
   font-size: smaller;
 }
