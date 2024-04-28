@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(66, 66, 66);
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#navBtn {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: fixed;
+  left: -100px;
+  top: -100px;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 1;
+}
+
+i.fa-bars {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+i.fa-close {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.mainPage {
+  padding: 50px 150px;
+  background-color: whitesmoke;
+  transform-origin: 0 0;
+  transition: 0.5s;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+h6 {
+  margin-top: 0;
+}
+
+.img {
+  /* width: 60vw; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: -250px;
+  color: white;
+}
+
+#homeBtn,
+#aboutBtn,
+#contactBtn {
+  transition: 0.5s;
+  margin: 50px;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.homeBtn {
+  transform: translate(250px);
+}
+
+.aboutBtn {
+  transform: translate(270px);
+}
+
+.contactBtn {
+  transform: translate(290px);
+}
+
+.navBtn {
+  rotate: -90deg;
+}
+
+.rotate {
+  /* position: fixed; */
+  rotate: -20deg;
+}
